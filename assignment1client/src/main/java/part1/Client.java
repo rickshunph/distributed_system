@@ -17,6 +17,7 @@ public class Client {
     String[] defaultArgs = properties.getPropValues();
     logger.info("List of input arguments" + Arrays.toString(defaultArgs));
     int[] maxThreadSet = new int[]{32, 64, 128, 256};
+//    int[] maxThreadSet = new int[]{600};
 
     try {
       Set<ClientApiThread> set = new HashSet<>();

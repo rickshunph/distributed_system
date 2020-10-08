@@ -104,6 +104,7 @@ public class ClientApiThread extends Thread {
         this.unsuccessfulRequestNum++;
       }
     }
+//    System.out.println("phase " + phase + " done......");
     this.countDownLatch.countDown();
   }
 
